@@ -1,0 +1,9 @@
+language: node_js
+node_js: 12
+services: mongodb
+cache:
+  directories: backend/node_modules
+before_install: cd backend
+install: npm install && npm install express
+before_script: sleep 15
+script: npm test

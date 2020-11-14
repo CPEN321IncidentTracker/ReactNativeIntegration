@@ -1,0 +1,30 @@
+{
+  "name": "cpen321incidenttracker",
+  "config": {
+    "jest": {
+      "verbose": true,
+      "preset": "@shelf/jest-mongodb",
+      "testEnvironment": "node"
+    }
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:detectOpenHandles": "jest --detectOpenHandles"
+  },
+  "devDependencies": {
+    "jest": "^26.6.1",
+    "mongodb-memory-server": "^6.9.2",
+    "mongodb-memory-server-core": "^6.9.2",
+    "supertest": "^6.0.0"
+  },
+  "dependencies": {
+    "@shelf/jest-mongodb": "^1.2.3",
+    "mongodb": "^3.6.2"
+  },
+  "author": "",
+  "license": "ISC"
+}

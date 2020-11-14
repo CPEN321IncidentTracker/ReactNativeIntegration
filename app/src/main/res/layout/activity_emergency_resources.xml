@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/boxInsetLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".EmergencyResources" >
+
+    <TextView
+        android:id="@+id/emergencyResourcesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/emergency_resources_title"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/emergencyResourcesSubtitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="280dp"
+        android:text="@string/emergency_resources_subtitle1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/police_fire_ambulance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/police_fire_ambulance"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emergencyResourcesSubtitle1" />
+
+    <TextView
+        android:id="@+id/emergency_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="@string/emergency_number_911"
+        android:autoLink="phone"
+        app:layout_constraintStart_toEndOf="@+id/police_fire_ambulance"
+        app:layout_constraintTop_toTopOf="@+id/police_fire_ambulance" />
+
+    <TextView
+        android:id="@+id/VPD_nonEmergency_caption"
+        android:layout_width="193dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/vpd_nonEmergency_caption"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/police_fire_ambulance" />
+
+    <TextView
+        android:id="@+id/vpd_nonEmergency_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="@string/vpd_nonEmergency_number"
+        android:autoLink="phone"
+        app:layout_constraintStart_toEndOf="@+id/VPD_nonEmergency_caption"
+        app:layout_constraintTop_toTopOf="@+id/VPD_nonEmergency_caption" />
+
+    <TextView
+        android:id="@+id/emergencyResourcesSubtitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/vpd_resources"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/crime_stoppers_caption" />
+
+    <TextView
+        android:id="@+id/VPD_homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/vpd_home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emergencyResourcesSubtitle2" />
+
+    <TextView
+        android:id="@+id/VPD_crime_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/report_crime"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VPD_homepage" />
+
+    <TextView
+        android:id="@+id/crime_stoppers_caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/crime_stoppers_caption"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VPD_nonEmergency_caption" />
+
+    <TextView
+        android:id="@+id/crime_stoppers_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:autoLink="phone"
+        android:text="@string/crime_stoppers_number"
+        app:layout_constraintStart_toEndOf="@+id/crime_stoppers_caption"
+        app:layout_constraintTop_toTopOf="@+id/crime_stoppers_caption" />
+
+    <TextView
+        android:id="@+id/crime_stoppers_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/crime_stoppers_website"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VPD_crime_report" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">LocationTest</string>
+    <string name="location_button_caption">Get Location Permissions</string>
+    <string name="maps_button_caption">Open Map</string>
+    <string name="emergency_resources_button">External crime resources</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="return_home">Return home</string>
+    <string name="add_incident_at_marker">Add Incident at Marker</string>
+    <string name="get_safety_score">Get safety score</string>
+    <string name="title_activity_post_new_incident">PostNewIncidentActivity</string>
+
+    <string name="emergency_resources_title">Vancouver Police Department and other resources:</string>
+    <string name="emergency_resources_subtitle1">Phone numbers:</string>
+    <string name="police_fire_ambulance">Police, fire ambulance:</string>
+    <string name="emergency_number_911">911</string>
+    <string name="vpd_nonEmergency_caption">VPD non-emergency number:</string>
+    <string name="vpd_nonEmergency_number">(604) 717-3321</string>
+    <string name="crime_stoppers_caption">Crime Stoppers number:</string>
+    <string name="crime_stoppers_number">1-800-222-8477</string>
+
+    <string name="vpd_resources">Online resources:</string>
+    <string name="vpd_home"><a href="https://vancouver.ca/police/index.html">VPD homepage</a></string>
+    <string name="report_crime"><a href="https://app.vancouver.ca/PoliceCitizenReporting_net/?_ga=2.60883756.1009086808.1604789221-201392557.1601287446">Report a crime to VPD</a></string>
+    <string name="crime_stoppers_website"><a href="https://solvecrime.ca">Crime Stoppers website</a></string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_emergency_resources">EmergencyResources</string>
+</resources>
